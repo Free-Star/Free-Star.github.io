@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FreeStarBlog</title>
+    <link>http://example.com/</link>
+    
+    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>这是一个记录技术性文章以及博主觉得可以公开的自己生活琐碎的FreeStar的Blog!（不好意思，定语有点多）</description>
+    <pubDate>Fri, 14 May 2021 03:11:51 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>《四年一梦》</title>
+      <link>http://example.com/2021/05/12/%E3%80%8A%E5%9B%9B%E5%B9%B4%E4%B8%80%E6%A2%A6%E3%80%8B/</link>
+      <guid>http://example.com/2021/05/12/%E3%80%8A%E5%9B%9B%E5%B9%B4%E4%B8%80%E6%A2%A6%E3%80%8B/</guid>
+      <pubDate>Wed, 12 May 2021 15:35:07 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;《四年一梦》&quot;&gt;&lt;a href=&quot;#《四年一梦》&quot; class=&quot;headerlink&quot; title=&quot;《四年一梦》&quot;&gt;&lt;/a&gt;《四年一梦》&lt;/h1&gt;&lt;h5 id=&quot;我来了，&quot;&gt;&lt;a href=&quot;#我来了，&quot; class=&quot;headerlink&quot; title=&quot;我来了，&quot;&gt;&lt;/a&gt;我来了，&lt;/h5&gt;&lt;p&gt;带着梦想的名义，&lt;/p&gt;
+&lt;p&gt;挥别了爸妈的泪水，&lt;/p&gt;
+&lt;p&gt;我时而醉在天堂，&lt;/p&gt;
+&lt;p&gt;我时而坠在地狱，&lt;/p&gt;
+&lt;p&gt;如今，&lt;/p&gt;
+&lt;p&gt;我走了，&lt;/p&gt;
+&lt;p&gt;一年又一年，&lt;/p&gt;
+&lt;p&gt;友谊的印记淡淡刻在心底。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="《四年一梦》"><a href="#《四年一梦》" class="headerlink" title="《四年一梦》"></a>《四年一梦》</h1><h5 id="我来了，"><a href="#我来了，" class="headerlink" title="我来了，"></a>我来了，</h5><p>带着梦想的名义，</p><p>挥别了爸妈的泪水，</p><p>我时而醉在天堂，</p><p>我时而坠在地狱，</p><p>如今，</p><p>我走了，</p><p>一年又一年，</p><p>友谊的印记淡淡刻在心底。</p><span id="more"></span><h5 id="我来了，-1"><a href="#我来了，-1" class="headerlink" title="我来了，"></a>我来了，</h5><p>带着自由的名义，</p><p>挥别了爸妈的殷切，</p><p>我时而沐浴阳光，</p><p>我时而惨遇暴雨，</p><p>如今，</p><p>我走了，</p><p>一年又一年，</p><p>爱情的点点藏在灵魂？</p><p><img src="https://i.im5i.com/2021/05/12/CddpW.png" alt="以梦为马，不负韶华"></p><h5 id="我来了，-2"><a href="#我来了，-2" class="headerlink" title="我来了，"></a>我来了，</h5><p>带着未来的名义，</p><p>挥别了爸妈的嘱托，</p><p>我时而乘风破浪，</p><p>我时而山穷水尽，</p><p>如今，</p><p>我走了，</p><p>一年又一年，</p><p>青春的缕缕飘在记忆？</p><p>四年一梦，</p><p>梦里，</p><p>风风雨雨，</p><p>如今，</p><p>我醒了，</p><p>踏上新的征途，</p><p>带着梦里的五味瓶，</p><p>或许，</p><p>一辈子，</p><p>挥之不去，</p><p>有你作伴的梦里红尘。</p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/%E7%8E%9B%E5%8D%A1%E5%B7%B4%E5%8D%A1/">玛卡巴卡</category>
+      
+      
+      <comments>http://example.com/2021/05/12/%E3%80%8A%E5%9B%9B%E5%B9%B4%E4%B8%80%E6%A2%A6%E3%80%8B/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
