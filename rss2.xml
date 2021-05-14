@@ -9,8 +9,35 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>这是一个记录技术性文章以及博主觉得可以公开的自己生活琐碎的FreeStar的Blog!（不好意思，定语有点多）</description>
-    <pubDate>Fri, 14 May 2021 03:11:51 GMT</pubDate>
+    <pubDate>Fri, 14 May 2021 04:44:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Blog配置日志</title>
+      <link>http://example.com/2021/05/14/Blog%E9%85%8D%E7%BD%AE%E6%97%A5%E5%BF%97/</link>
+      <guid>http://example.com/2021/05/14/Blog%E9%85%8D%E7%BD%AE%E6%97%A5%E5%BF%97/</guid>
+      <pubDate>Fri, 14 May 2021 04:36:39 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;time:2021/5/14&lt;/p&gt;
+&lt;h5 id=&quot;更新内容：&quot;&gt;&lt;a href=&quot;#更新内容：&quot; class=&quot;headerlink&quot; title=&quot;更新内容：&quot;&gt;&lt;/a&gt;更新内容：&lt;/h5&gt;&lt;p&gt;1.live2d 插件；&lt;/p&gt;
+&lt;p&gt;2.域名图标；&lt;/p&gt;
+&lt;p&gt;3</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>time:2021/5/14</p><h5 id="更新内容："><a href="#更新内容：" class="headerlink" title="更新内容："></a>更新内容：</h5><p>1.live2d 插件；</p><p>2.域名图标；</p><p>3.Fork me on GitHub；</p><p>4.资源菜单（有Bug,不能显示图标）；</p><p>5.相册菜单（有Bug,不能显示图标）；</p><p>6.优化了背景已经文章页面，优化观感；</p><p>7.添加了搜索页，设置为自动搜索（搜索内容随Input信息实时变化）；</p><p>8.添加了文章来必力评论系统，并用QQ登录进行了评论测试！</p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://example.com/tags/Blog-System/">Blog System</category>
+      
+      
+      <comments>http://example.com/2021/05/14/Blog%E9%85%8D%E7%BD%AE%E6%97%A5%E5%BF%97/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>《四年一梦》</title>
