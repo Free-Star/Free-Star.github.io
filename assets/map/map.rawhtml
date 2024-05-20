@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!--引入jQuery框架-->
+        <script type="text/javascript" src="./jquery-1.9.1.min.js"></script>
+        <!--引入jVectorMap库-->
+        <script type="text/javascript" src="./jquery-jvectormap-1.2.2.min.js"></script>
+        <!--引入样式表-->
+        <link href="js/jquery-jvectormap-1.2.2.css" rel="stylesheet" media="screen">
+
+        <!--引入中国地图数据库-->
+        <script type="text/javascript" src="./jquery-jvectormap-cn-merc-en.js"></script>
+
+        <style>
+            body {
+                background-color: #1a1a1a;
+                color: #ffa500;
+                font-family: Arial, sans-serif;
+            }
+
+            #map {
+                width: 100%;
+                height: 460px;
+                background-color: #1a1a1a;
+                border: 1px solid #ffa500;
+            }
+
+            .jvectormap-marker {
+                fill: #ffa500 !important;
+                stroke: #1a1a1a !important;
+            }
+
+            .jvectormap-region {
+                fill: #353535;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script>
+            $('#map').vectorMap({
+                map: 'cn_merc_en',   // 中国地图
+                //map: 'us_aea',     // 美国地图
+                //map: 'world_mill', // 世界地图
+
+                backgroundColor: 'transparent',
+                zoomMin: 0.9, // 鼠标缩放时的最小比例
+                zoomMax: 2.4, // 鼠标缩放时的最大比例
+                focusOn: {
+                    x: 0.55,
+                    y: 2,
+                    scale: 0.9
+                },
+                regionStyle: {
+                    initial: {
+                        fill: '#353535',   // 地图颜色
+                        "fill-opacity": 1, // 省份（州）是否隐藏，鼠标滑动时显示; 1：显示，2：隐藏。
+                        stroke: '#1a1a1a',
+                        "stroke-width": 1,
+                        "stroke-opacity": 1
+                    },
+                    hover: {
+                        fill: '#ffa500',  // 鼠标滑动至某省份的高亮颜色。
+                        "fill-opacity": 0.8
+                    },
+                    selected: {
+                        fill: 'orange'
+                    },
+                    selectedHover: {}
+                },
+                markerStyle: {
+                    initial: {
+                        fill: '#ffa500', // 足迹位置的填充颜色
+                        stroke: '#1a1a1a'   // 足迹位置的描边颜色
+                    },
+                    hover: {
+                        fill: '#ff4500', // 鼠标滑动至足迹位置后的填充颜色
+                        stroke: '#fff',  // 鼠标滑动至足迹位置后的描边颜色
+                        "fill-opacity": 0.8
+                    },
+                },
+                markers: [ // 足迹位置
+
+                    // {latLng: [经度（保留两位小数）, 纬度（保留两位小数）], name: '城市名称'},
+                    // 推荐查询经纬度网站：http://www.gpsspg.com/maps.htm
+
+                    {latLng: [39.90, 116.41], name: '北京（工作）'},
+                    {latLng: [38.92, 121.62], name: '大连（实习）'},
+                    {latLng: [39.12, 117.20], name: '天津（玩儿）'},
+                    {latLng: [36.19, 117.12], name: '山东泰安（出差）'},
+                    {latLng: [34.75, 112.98], name: '河南巩义（玩儿）'},
+                    {latLng: [37.87, 112.55], name: '山西太原（Home）'},
+                    {latLng: [43.83, 126.55], name: '吉林市（玩儿）'}
+                ]
+            });
+        </script>
+    </body>
+</html>
