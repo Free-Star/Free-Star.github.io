@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'YunFeng';
+    src: url('../fonts/YunFeng.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+    font-family: 'YunFeng';
+}
